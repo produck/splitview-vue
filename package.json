@@ -1,0 +1,50 @@
+{
+  "name": "@produck/splitview-vue",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A vue plugin of @produck/splitview.",
+  "author": {
+    "name": "ChaosLee"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "clean": "rm -rf ./dist",
+    "dev": "rollup --config script/rollup.config.dev.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@produck/splitview": "^0.1.1",
+    "@rollup/plugin-eslint": "^8.0.1",
+    "@rollup/plugin-html": "^0.2.3",
+    "@vue/cli-service": "~4.5.13",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.28.0",
+    "eslint-plugin-vue": "^7.11.1",
+    "rollup": "^2.52.1",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "vue": "^2.6.14",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "_id": "@produck/splitview-vue@0.1.0",
+  "bugs": {
+    "url": "https://github.com/produck/splitview-vue/issues"
+  },
+  "homepage": "https://github.com/produck/splitview-vue#readme",
+  "keywords": [
+    "vue",
+    "splitview"
+  ],
+  "license": "MIT",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/produck/splitview-vue.git"
+  }
+}
