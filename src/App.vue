@@ -32,6 +32,7 @@
 				min="100"
 				max="400"
 				init="250"
+				collapsible
 			></sv-view>
 		</sv-container>
 	</sv-view>

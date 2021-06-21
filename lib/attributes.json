@@ -1,0 +1,20 @@
+{
+	"sv-container/direction": {
+		"description": ""
+	},
+	"sv-view/min": {
+		"description": ""
+	},
+	"sv-view/max": {
+		"description": ""
+	},
+	"sv-view/init": {
+		"description": ""
+	},
+	"sv-view/collapsible": {
+		"description": ""
+	},
+	"sv-view/value": {
+		"description": ""
+	}
+}
