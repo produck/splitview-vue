@@ -701,6 +701,7 @@
 	 * @type {import('vue').ComponentOptions}
 	 */
 	const ViewComponent = {
+		name: 'sv-view',
 		render(createElement) {
 			return createElement('div', {
 				style: WRAP_STYLE,
@@ -712,6 +713,11 @@
 					min: Number(this.min),
 					max: Number(this.max)
 				};
+			},
+			isCollapsible() {
+				return typeof this.collapsible === 'boolean'
+					? this.collapsible
+					: typeof this.collapsible === 'string';
 			}
 		},
 		watch: {
@@ -773,6 +779,10 @@
 				type: [Number, String, null],
 				default: null,
 				validator: isNotNaN
+			},
+			collapsible: {
+				type: [Boolean, String],
+				default: false
 			},
 			value: {
 				type: [Number, String],
