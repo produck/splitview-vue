@@ -3,7 +3,6 @@ import { defineConfig } from 'rollup';
 import { terser } from 'rollup-plugin-terser';
 import eslint from '@rollup/plugin-eslint';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
-import alias from '@rollup/plugin-alias';
 
 const MODULE_NAME = 'splitview-vue';
 const BANNER =
@@ -40,9 +39,6 @@ const moduleList = [
 
 export default moduleList.map(config => {
 	const pluginList = [
-		alias({
-			entries: []
-		}),
 		nodeResolve(),
 		eslint({
 			throwOnError: true,

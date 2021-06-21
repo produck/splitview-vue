@@ -8,13 +8,12 @@
 		min="48"
 		max="48"
 		id="app-feature-button-group"
-		class=" h-100"
 	>
 	</sv-view>
 
 	<sv-view
 		min="0"
-		max="1200"
+		max="300"
 		init="300"
 		id="app-feature-panel"
 		v-model="panelSize"
