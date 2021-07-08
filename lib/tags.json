@@ -1,12 +1,12 @@
 {
 	"sv-container": {
-		"description": "",
+		"description": "A view container",
 		"attributes": [
 			"direction"
 		]
 	},
 	"sv-view": {
-		"description": "",
+		"description": "A view",
 		"attributes": [
 			"min",
 			"max",
